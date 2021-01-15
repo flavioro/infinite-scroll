@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import InfiniteScroll from './components/infineScroll'
+import InfiniteScroll from './components/infiniteScroll'
 
 function App() {
   return (

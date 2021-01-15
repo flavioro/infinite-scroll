@@ -54,6 +54,7 @@ const InfiniteScroll = () => {
    // in this case we just update page variable
   const handleObserver = (entities) => {
     const target = entities[0];
+    // console.log(target)
     if (target.isIntersecting) {   
         setPage((page) => page + 1)
     }
